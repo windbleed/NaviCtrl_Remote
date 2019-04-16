@@ -1,0 +1,78 @@
+#ifndef USART_Unit
+#define USART_Unit
+
+#include "stm32f0xx.h"
+#include "stdio.h"
+#include "FreeRTOS.h"
+#include "semphr.h"
+#include "stdbool.h"
+
+
+
+/* USART1 port define */
+#define USART1_PORT        GPIOA
+#define USART1_TX          GPIO_Pin_9
+#define USART1_RX          GPIO_Pin_10
+#define USART1_BaudRate    9600
+
+#define USART1_RTS_PORT    GPIOA
+#define USART1_RTS_Pin     GPIO_Pin_1
+#define USART1_RTS_RCC	   RCC_AHBPeriph_GPIOA
+
+
+/* usart2 port define */
+#define USART2_PORT        GPIOA
+#define USART2_TX          GPIO_Pin_2
+#define USART2_RX          GPIO_Pin_3
+#define USART2_BaudRate    9600
+
+
+/* usart3 port define */
+#define USART3_PORT        GPIOB
+#define USART3_TX          GPIO_Pin_10
+#define USART3_RX          GPIO_Pin_11
+#define USART3_BaudRate    9600
+
+#define USART3_RTS_PORT    GPIOA
+#define USART3_RTS_Pin     GPIO_Pin_11
+#define USART3_RTS_RCC	   RCC_AHBPeriph_GPIOA
+
+
+
+#define USART_BUF_LEN      50
+
+extern unsigned char  USART1_RX_BUF[USART_BUF_LEN];
+
+
+extern xSemaphoreHandle USART1_ReceivedSemaphore;
+
+
+extern int USART1_RX_Length;
+
+
+
+extern void USART1_Config(void);     //USART1 for PC communication ,USART2 for VDR Log, USART3 for GPS time
+
+
+extern bool USART_TxString(USART_TypeDef* USARTx,unsigned char *string);   				//sting end flag '\0' 
+extern bool USART_TxStringByLen(USART_TypeDef* USARTx,unsigned char *string,int length);
+
+
+extern bool USART1_TxStringByLen(unsigned char * string,int length);
+
+
+extern void USART1_IRQHandler(void);
+
+
+
+int fputc(int ch, FILE *f);
+
+static void USART1_Set_RTS_TX(void);
+
+static void USART1_Set_RTS_RX(void);
+
+
+
+
+
+#endif

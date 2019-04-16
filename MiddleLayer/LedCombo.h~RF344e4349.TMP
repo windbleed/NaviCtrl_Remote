@@ -1,0 +1,74 @@
+#ifndef LED_Combo_Unit
+#define LED_Combo_Unit
+#include "stdbool.h"
+
+
+
+#define  LEDCombo_ColorNum 8
+#define  LEDCombo_Num  12
+#define  LEDCombo_Status_Compressed_Num   ((LEDCombo_Num%8==0)?(LEDCombo_Num/8):(LEDCombo_Num/8+1))
+
+#define LEDCombo_Pwr_Main		43
+#define LEDCombo_Pwr_Sub	  	44
+#define LEDCombo_COM2_ID 		47
+#define LEDCombo_COM1_ID 		48
+
+#define LEDCombo_DianDong       54
+#define LEDCOmbo_Test			53
+#define LEDCOmbo_Mute			52
+#define LEDCOmbo_Dimmer			51
+#define LEDCOmbo_Auto			45
+#define LEDCOmbo_Manual			46
+
+
+
+static unsigned char  LEDCombo_REDVector;
+static unsigned char  LEDCombo_GREENVector;
+static unsigned char  LEDCombo_BlueVector;
+
+static unsigned char  LEDCombo_ColorName[LEDCombo_ColorNum][5];
+
+static unsigned char  LEDCombo_Layout[LEDCombo_Num][3];
+
+static bool  LEDCombo_OnStatus[LEDCombo_Num];
+
+static bool  LEDCombo_OnStatus_BackUp[LEDCombo_Num];
+
+static bool LEDCombo_IsBlink[LEDCombo_Num];
+static unsigned char  LEDCombo_ColorConfig[LEDCombo_Num];
+
+
+static void LEDCombo_SetupColor(int Comb_Offset,int Color);
+
+
+extern unsigned char Status_Table_Compressed[LEDCombo_Status_Compressed_Num];
+
+
+static void LEDCombo_RestoreDefault(void);
+
+
+
+extern void LEDCombo_Init(void);
+extern void LEDCombo_ConfigColor(int Combo_Offset,unsigned char Color);
+extern void LEDCombo_TurnOn(int Comb_Offset);
+extern void LEDCombo_TurnOff(int Comb_Offset);
+
+
+extern void LEDCombo_SaveStatusToEEPROM(void);
+extern void LEDCombo_GetStatusFromEEPROM(void);
+
+extern bool LEDCombo_GetStatus(int Comb_Offset);
+extern void LEDCombo_SetStatus(int Comb_Offset,bool Status);
+extern void LEDCombo_SetBlink(unsigned char Pos, bool Value);
+
+extern void LEDCombo_Reflash(void);
+extern void LEDCombo_SetLight(unsigned char level);
+
+extern void LEDCombo_SaveCurrent_OnStatus(void);
+
+extern void LEDCombo_LoadCurrent_Onstatus(void);
+
+extern void LEDCombo_LightOn_NoneLampRelative(void);
+
+
+#endif

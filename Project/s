@@ -1,0 +1,35 @@
+#ifndef Misc_Unit
+#define Misc_Unit
+
+
+#define Buzzer_Port			GPIOF
+#define Buzzer_Gpio_Pin		GPIO_Pin_1
+#define Buzzer_RCC			RCC_AHBPeriph_GPIOF
+
+#define Sensor_Port			GPIOA
+#define Sensor_Gpio_Pin		GPIO_Pin_7
+#define Sensor_RCC          RCC_AHBPeriph_GPIOA
+
+#define Fan_Port			GPIOA
+#define Fan_Gpio_Pin		GPIO_Pin_11
+#define Fan_RCC				RCC_AHBPeriph_GPIOA
+
+
+
+extern void Misc_Init(void);
+
+static void Buzzer_Init(void);
+extern void Buzzer_SetAlarm(void);
+extern void Buzzer_ClearAlarm(void);
+
+static void Sensor_Init(void);
+extern unsigned short Sensor_GetTemp(void);
+
+static void Fan_Init(void);
+extern void Fan_Start(void);
+extern void Fan_Stop(void);
+ 
+static void Sensor_ADC_Init(void);
+
+
+#endif

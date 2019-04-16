@@ -1,0 +1,88 @@
+#ifndef CMDParser_Unit
+#define CMDParser_Unit
+
+#include "stdbool.h"
+
+#define CMDParser_Config           		0x01
+#define CMDParser_RemoteCtl				0x02
+#define CMDParser_GPSTime 				0x03
+#define CMDParser_ACK               	0x04
+
+#define CMDParser_Config_BoardID    	0x01
+#define CMDParser_Config_BoardType  	0x02
+#define CMDParser_Config_ONStatus 		0x03
+#define CMDParser_Config_Enable			0x04
+#define CMDParser_Config_LEDColor  		0x05
+#define CMDParser_Config_FlashStatus	0x06
+
+#define CMDParser_RemoteCtl_KeyPush		0x01
+#define CMDParser_RemoteCtl_KeyPop		0x02
+
+#define CMDParser_GPSTime_GGA			0x01
+#define CMDParser_GPSTime_RMC			0x02
+		
+
+
+static unsigned char 	CMDParser_BoardID;
+static unsigned char 	CMDParser_BoardType;
+
+extern unsigned char 	CMDParser_OnStatus[3];
+extern unsigned char 	CMDParser_Enable[3];
+extern unsigned char 	CMDParser_LEDColor[20];
+
+
+extern unsigned short  	CMDParser_FlashStatus;
+
+
+static unsigned char    CMDParser_RemoteCtl_ID;  
+
+static unsigned char    CMDParser_ACK_LampID;
+
+extern unsigned char   * CMDParser_Time;
+extern unsigned char   * CMDParser_Date;
+
+
+extern void CMDParser_COM1_Handler(void);
+extern void CMDParser_COM3_Handler(void);
+
+static void CMDParser_UnPack_CFG(unsigned char * Buf);
+static void CMDParser_UnPack_RemoteCtl(unsigned char * Buf);
+static void CMDParser_UnPack_GPS(unsigned char * BUF);
+static void CMDParser_UnPack_GGA(unsigned char * Buf);
+static void CMDParser_UnPack_RMC(unsigned char * Buf);
+//static void CMDParser_UnPack_ACK(unsigned char * Buf);
+
+
+static void CMDParser_SendMessage_CFG_BdID(void);
+static void CMDParser_SendMessage_CFG_BdType(void);
+static void CMDParser_SendMessage_CFG_ONStatus(void);
+static void CMDParser_SendMessage_CFG_Enable(void);
+static void CMDParser_SendMessage_CFG_LEDColor(void);
+static void CMDParser_SendMessage_CFG_FlashStatus(void);
+
+
+static void CMDParser_SendMessage_RemoteCtl_KeyPush(void);
+static void CMDParser_SendMessage_RemoteCtl_KeyPop(void);
+static void CMDParser_SendMessage_CorrectTime(void);
+static void CMDParser_SendMessage_CorrectDateTime(void);
+static void CMDParser_SendMessage_ACK(void);
+
+
+
+static bool CMDParser_VerifyCheckSum(unsigned char *Buf, unsigned char Length);
+static unsigned char CMDParser_GetOriginalChecksum(unsigned char P1,unsigned char P2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

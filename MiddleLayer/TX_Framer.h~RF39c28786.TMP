@@ -1,0 +1,7 @@
+#ifndef TXFramer_Unit
+#define TXFramer_Unit
+
+extern void 					TXFramer_SendSync(void);
+extern void 					TXFramer_SendSimKey(unsigned char BId,unsigned char Keynum);
+extern unsigned char 	TXFramer_CalChecksum(unsigned char *str,int length);
+#endif

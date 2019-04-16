@@ -1,0 +1,471 @@
+Dependencies for Project 'T7_F030_FRTOS_1', Target 'Target 1': (DO NOT MODIFY !)
+F (..\CMSIS\Source\Templates\arm\startup_stm32f030.s)(0x528F2E68)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F030xC SETA 1"--list .\listing\startup_stm32f030.lst --xref -o .\obj\startup_stm32f030.o --depend .\obj\startup_stm32f030.d)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x528BBE81)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f0xx_gpio.o --omf_browse .\obj\stm32f0xx_gpio.crf --depend .\obj\stm32f0xx_gpio.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x528BBE81)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f0xx_rcc.o --omf_browse .\obj\stm32f0xx_rcc.crf --depend .\obj\stm32f0xx_rcc.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x528BBE81)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f0xx_usart.o --omf_browse .\obj\stm32f0xx_usart.crf --depend .\obj\stm32f0xx_usart.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+F (..\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x528BBE81)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f0xx_syscfg.o --omf_browse .\obj\stm32f0xx_syscfg.crf --depend .\obj\stm32f0xx_syscfg.d)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+F (..\FreeRTOS\list.c)(0x527CC7C2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\list.o --omf_browse .\obj\list.crf --depend .\obj\list.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+F (..\FreeRTOS\queue.c)(0x527CC7C3)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\queue.o --omf_browse .\obj\queue.crf --depend .\obj\queue.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+I (..\FreeRTOS\include\queue.h)(0x52827F5F)
+F (..\FreeRTOS\timers.c)(0x527CC7C3)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\timers.o --omf_browse .\obj\timers.crf --depend .\obj\timers.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+I (..\FreeRTOS\include\queue.h)(0x52827F5F)
+I (..\FreeRTOS\include\timers.h)(0x527CC7C2)
+F (..\FreeRTOS\tasks.c)(0x52822705)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\tasks.o --omf_browse .\obj\tasks.crf --depend .\obj\tasks.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+I (..\FreeRTOS\include\timers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\StackMacros.h)(0x527CC7C2)
+F (..\FreeRTOS\portable\RVDS\ARM_CM0\port.c)(0x527CC7C2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\port.o --omf_browse .\obj\port.crf --depend .\obj\port.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+F (..\FreeRTOS\portable\MemMang\heap_2.c)(0x527CC7C2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\heap_2.o --omf_browse .\obj\heap_2.crf --depend .\obj\heap_2.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+F (..\USER\main.c)(0x52C10949)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x527CC7C2)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOS\include\projdefs.h)(0x527CC7C2)
+I (..\USER\FreeRTOSConfig.h)(0x52C10721)
+I (..\FreeRTOS\include\portable.h)(0x52861290)
+I (..\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x527CC7C3)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x527CC7C2)
+I (..\FreeRTOS\include\task.h)(0x527CC7EA)
+I (..\FreeRTOS\include\list.h)(0x527CC7C2)
+F (..\USER\usart.c)(0x52C10A9D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\usart.o --omf_browse .\obj\usart.crf --depend .\obj\usart.d)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (..\USER\system_stm32f0xx.c)(0x52BE6B1F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\system_stm32f0xx.o --omf_browse .\obj\system_stm32f0xx.crf --depend .\obj\system_stm32f0xx.d)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)
+F (..\USER\stm32f0xx_it.c)(0x52BE6C32)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS\Include -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\STM32F0xx_StdPeriph_Driver\inc -I ..\USER -I ..\CMSIS\Include-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F030xC -DSTM32F0XX -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f0xx_it.o --omf_browse .\obj\stm32f0xx_it.crf --depend .\obj\stm32f0xx_it.d)
+I (..\USER\stm32f0xx_it.h)(0x525803CC)
+I (..\CMSIS\Include\stm32f0xx.h)(0x528BBE7C)
+I (..\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\CMSIS\Include\system_stm32f0xx.h)(0x528BBE7C)
+I (..\USER\stm32f0xx_conf.h)(0x525803CD)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528BBE82)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528BBE81)
+I (..\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528BBE81)

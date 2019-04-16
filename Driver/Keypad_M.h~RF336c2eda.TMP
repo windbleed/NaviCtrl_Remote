@@ -1,0 +1,39 @@
+#ifndef Keypad_Unit
+#define Keypad_Unit
+
+#include "stdbool.h"
+
+#define Keypad_Num  7 
+
+
+#define   KEY7     	7
+#define   KEY6     	6
+#define   KEY5     	5
+#define   KEY4     	4
+#define   KEY3     	3
+#define   KEY2     	2
+#define   KEY1     	1
+
+
+#define   Morse_Release_Key 0x66
+
+
+static unsigned short Keypad_Logic[Keypad_Num];
+
+static bool Keypad_IsValid;
+static unsigned char Keypad_KeyVal;
+
+  
+static void Keypad_GPIOConfig(void);
+static unsigned char Keypad_ScanKey(void); 
+           	
+				
+				
+				
+extern unsigned char Keypad_ReadKey(void);     								 //scan key and make Keypad_IsValid true, save key number in Keypad_KeyValval
+extern void Keypad_Init(void);
+
+
+
+
+#endif
